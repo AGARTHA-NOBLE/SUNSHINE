@@ -1,0 +1,20 @@
+1. Build NGINX stack.
+    -- Serve HTMX/CSS off of disk.
+    -- Passthru API access to the Golang application.
+2. Build Golang app.
+    -- Save preambles for users and GFs
+    -- Manage various different token passthrus.
+    -- Make queries to the user/GF database, return GF attributes
+    -- Run attributes and user tokens thru modelpool.
+    -- Return strings to frontends.
+
+I want NGINX to perform most of the passthru work to various different Golang API instances for the headers, which in turn go speak to a modelpool.
+
+
+TODAY:
+
+Get account creation at least mocked.
+-- Accept username/password
+--- Expose Customer Methods on /api? Forbid anything that isn't from my other inputs?
+-- Verify Email
+-- Create Account/Save to Database

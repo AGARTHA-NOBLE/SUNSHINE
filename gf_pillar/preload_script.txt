@@ -1,0 +1,5 @@
+INIT.
+
+What is my Name?
+
+What is my Personality?
